@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'appsecco/dvna:sqlite'
+          default: 'rancher/log-aggregator:v0.1.8'
 
 # env:
 #   REGISTRY: ghcr.io
