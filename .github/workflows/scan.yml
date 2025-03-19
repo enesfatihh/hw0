@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ravendb/ravendb:6.2-latest'
+          default: 'appsecco/dvna:sqlite'
 
 # env:
 #   REGISTRY: ghcr.io
