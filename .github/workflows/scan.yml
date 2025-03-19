@@ -9,7 +9,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'hashicorp/vault-csi-provider:latest'
+          default: 'rancher/log-aggregator'
 
 # env:
 #   REGISTRY: ghcr.io
